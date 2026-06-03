@@ -8,7 +8,7 @@ Profesor: Octavio Villegas
 ## Sistema bajo prueba: Carrito de Compras
 
 Aplicación orientada a objetos en Python que simula el flujo de compra de un e-commerce.  
-**4 clases** | **74 tests** | **98% de cobertura**
+**4 clases** | **81 tests** | **98% de cobertura**
 
 ---
 
@@ -28,6 +28,7 @@ TP-Testeo-Software/
 │   ├── test_rendimiento.py   # Sprint 2.4
 │   ├── test_interfaz.py      # Sprint 2.5
 │   └── test_camino.py        # Sprint 2.6
+│   └── test_e2e.py           # Sprint 4 - E2E
 └── docs/
     ├── sprint1_descripcion.md
     ├── sprint2_conjunto_pruebas.md
@@ -59,5 +60,5 @@ python -m pytest tests/ --cov=src --cov-report=term-missing
 | 1      | 13/05 | Software + UML + Descripción | ✅ |
 | 2      | 20/05 | Diseño del conjunto de pruebas | ✅ |
 | 3      | 27/05 | Ejecución y documentación | ✅ |
-| 4      | 03/06 | Pruebas E2E | 🔄 |
+| 4      | 03/06 | Pruebas E2E | ✅ |
 | Final  | 10/06 | Entrega completa | 🔄 |
