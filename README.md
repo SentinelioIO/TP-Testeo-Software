@@ -13,8 +13,6 @@ Aplicación orientada a objetos en Python que simula el flujo de compra de un e-
 ---
 
 ## Estructura del Proyecto
-
-```
 TP-Testeo-Software/
 ├── src/
 │   ├── producto.py           # Clase Producto
@@ -27,29 +25,24 @@ TP-Testeo-Software/
 │   ├── test_caja_negra.py    # Sprint 2.3
 │   ├── test_rendimiento.py   # Sprint 2.4
 │   ├── test_interfaz.py      # Sprint 2.5
-│   └── test_camino.py        # Sprint 2.6
+│   ├── test_camino.py        # Sprint 2.6
 │   └── test_e2e.py           # Sprint 4 - E2E
 └── docs/
-    ├── sprint1_descripcion.md
-    ├── sprint2_conjunto_pruebas.md
-    ├── sprint3_ejecucion.md
-    └── sprint4_e2e.md
-```
+├── sprint1_descripcion.md
+├── sprint2_conjunto_pruebas.md
+├── sprint3_ejecucion.md
+├── sprint4_e2e.md
+└── sprint_final.md
 
 ---
 
 ## Cómo ejecutar
-
-```bash
-# Instalar dependencias
+Instalar dependencias
 pip install pytest pytest-cov
-
-# Ejecutar todos los tests
+Ejecutar todos los tests
 python -m pytest tests/ -v
-
-# Ejecutar con reporte de cobertura
+Ejecutar con reporte de cobertura
 python -m pytest tests/ --cov=src --cov-report=term-missing
-```
 
 ---
 
@@ -61,4 +54,4 @@ python -m pytest tests/ --cov=src --cov-report=term-missing
 | 2      | 20/05 | Diseño del conjunto de pruebas | ✅ |
 | 3      | 27/05 | Ejecución y documentación | ✅ |
 | 4      | 03/06 | Pruebas E2E | ✅ |
-| Final  | 10/06 | Entrega completa | 🔄 |
+| Final  | 10/06 | Error de logica + deteccion con tests | ✅ |
