@@ -29,7 +29,7 @@ class GestorDescuentos:
 
         if es_vip:
             descuento += self.DESCUENTO_VIP
-            if subtotal > 1000:
+            if subtotal >= 1000: #agrego aca el >= para que genere error
                 descuento += self.DESCUENTO_MONTO_ALTO
         elif subtotal > 500:
             descuento += self.DESCUENTO_MONTO_MEDIO
